@@ -1,0 +1,29 @@
+.root-shell { -fx-background-color: #111418; -fx-font-family: "System"; -fx-font-size: 13px; }
+.label { -fx-text-fill: #E6F0FA; }
+.sidebar, .inspector { -fx-background-color: #1B212B; -fx-padding: 24; -fx-spacing: 14; }
+.sidebar { -fx-border-color: transparent #2B394B transparent transparent; }
+.inspector { -fx-border-color: transparent transparent transparent #2B394B; }
+.logo { -fx-font-size: 26px; -fx-font-weight: bold; -fx-text-fill: #7DD3FC; }
+.eyebrow { -fx-font-size: 11px; -fx-font-weight: bold; -fx-text-fill: #89A9CA; }
+.headline { -fx-font-size: 25px; -fx-font-weight: bold; -fx-text-fill: #F5F7FA; }
+.muted { -fx-font-size: 12px; -fx-text-fill: #9EB0C4; }
+.metric-value { -fx-font-size: 27px; -fx-font-weight: bold; -fx-text-fill: #F5F7FA; }
+.status-label { -fx-font-size: 12px; -fx-font-weight: bold; }
+.map-panel { -fx-background-color: #141F2D; -fx-background-radius: 16; -fx-border-radius: 16; -fx-border-color: #2B405A; -fx-padding: 12; }
+.button { -fx-cursor: hand; -fx-background-radius: 8; -fx-padding: 11 12; -fx-font-weight: bold; }
+.primary-button { -fx-background-color: #3B82F6; -fx-text-fill: white; }
+.primary-button:hover { -fx-background-color: #60A5FA; }
+.secondary-button { -fx-background-color: #26394F; -fx-text-fill: #DDEEFF; }
+.secondary-button:hover { -fx-background-color: #35516F; }
+.combo-box { -fx-background-color: #26394F; -fx-background-radius: 8; }
+.combo-box .list-cell { -fx-text-fill: #F5F7FA; -fx-background-color: #26394F; }
+.combo-box-popup .list-view { -fx-background-color: #26394F; }
+.combo-box-popup .list-cell:hover { -fx-background-color: #35516F; }
+.separator *.line { -fx-border-color: #344256; }
+.event-log { -fx-control-inner-background: #141F2D; -fx-background-color: #141F2D; -fx-text-fill: #CEE0F3; -fx-highlight-fill: #315B83; -fx-font-family: "Monospaced"; -fx-font-size: 12px; }
+.event-log .content { -fx-background-color: #141F2D; }
+
+/* Keep the flight map viewport from influencing surrounding controls. */
+.map-panel > .viewport { -fx-background-color: #141F2D; }
+.map-panel .scroll-bar { -fx-background-color: #1B2738; }
+.map-panel .corner { -fx-background-color: #141F2D; }
