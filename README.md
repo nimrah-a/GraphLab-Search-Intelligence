@@ -1,6 +1,17 @@
 # GraphLab — Search Intelligence
 
+
 **Interactive fictional missing-person search & evidence simulation** — Java / JavaFX / Maven.
+
+## Application Screenshots
+
+
+![GraphLab Investigation Dashboard](investigation-dashboard.png)
+
+![GraphLab Search Operations](search-operations.png)
+
+![GraphLab Fingerprint Analysis](fingerprint-analysis.png)
+
 
 ## Launch in IntelliJ IDEA
 
